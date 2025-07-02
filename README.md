@@ -10,6 +10,7 @@ This is a rosbag for lcm data connection for njust_v2_self_dog.
 source devel/setup.bash
 ./star_multicast
 roslaunch lcm_tools njust_display_rviz.launch 
+rosrun lcm_tools lcmnjust
 ```
 
 ## More detail

@@ -46,14 +46,14 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/base_link.STL" scale="1 1 1"/>
+                <mesh filename="package://lcm_tools/meshes/base_link.STL" scale="1 1 1"/>
             </geometry>
             <material name="orange"/>
         </visual>
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/base_link.STL" scale="1 1 1"/>
+                <mesh filename="package://lcm_tools/meshes/base_link.STL" scale="1 1 1"/>
             </geometry>
             <material name="orange"/>
         </collision>
@@ -103,7 +103,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/FR_hip.STL"/>
+                <mesh filename="package://lcm_tools/meshes/FR_hip.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.79608 0.82353 0.93725 1"/>
@@ -112,7 +112,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/FR_hip.STL"/>
+                <mesh filename="package://lcm_tools/meshes/FR_hip.STL"/>
             </geometry>
         </collision>
     </link>
@@ -132,7 +132,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/FR_thigh.STL"/>
+                <mesh filename="package://lcm_tools/meshes/FR_thigh.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.79608 0.82353 0.93725 1"/>
@@ -141,7 +141,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/FR_thigh.STL"/>
+                <mesh filename="package://lcm_tools/meshes/FR_thigh.STL"/>
             </geometry>
         </collision>
     </link>
@@ -161,7 +161,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/FR_calf.STL"/>
+                <mesh filename="package://lcm_tools/meshes/FR_calf.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.79608 0.82353 0.93725 1"/>
@@ -170,7 +170,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/FR_calf.STL"/>
+                <mesh filename="package://lcm_tools/meshes/FR_calf.STL"/>
             </geometry>
         </collision>
     </link>
@@ -190,7 +190,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/FR_wheel.STL"/>
+                <mesh filename="package://lcm_tools/meshes/FR_wheel.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.79608 0.82353 0.93725 1"/>
@@ -199,7 +199,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/FR_wheel.STL"/>
+                <mesh filename="package://lcm_tools/meshes/FR_wheel.STL"/>
             </geometry>
         </collision>
     </link>
@@ -217,7 +217,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/FL_hip.STL"/>
+                <mesh filename="package://lcm_tools/meshes/FL_hip.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.79608 0.82353 0.93725 1"/>
@@ -226,7 +226,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/FL_hip.STL"/>
+                <mesh filename="package://lcm_tools/meshes/FL_hip.STL"/>
             </geometry>
         </collision>
     </link>
@@ -247,7 +247,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/FL_thigh.STL"/>
+                <mesh filename="package://lcm_tools/meshes/FL_thigh.STL"/>
             </geometry>
             <material name="">
                 <color rgba="1 1 1 1"/>
@@ -256,7 +256,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/FL_thigh.STL"/>
+                <mesh filename="package://lcm_tools/meshes/FL_thigh.STL"/>
             </geometry>
         </collision>
     </link>
@@ -276,7 +276,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/FL_calf.STL"/>
+                <mesh filename="package://lcm_tools/meshes/FL_calf.STL"/>
             </geometry>
             <material name="">
                 <color rgba="1 1 1 1"/>
@@ -285,7 +285,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/FL_calf.STL"/>
+                <mesh filename="package://lcm_tools/meshes/FL_calf.STL"/>
             </geometry>
         </collision>
     </link>
@@ -305,7 +305,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/FL_wheel.STL"/>
+                <mesh filename="package://lcm_tools/meshes/FL_wheel.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.79608 0.82353 0.93725 1"/>
@@ -314,7 +314,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/FL_wheel.STL"/>
+                <mesh filename="package://lcm_tools/meshes/FL_wheel.STL"/>
             </geometry>
         </collision>
     </link>
@@ -333,7 +333,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/RR_hip.STL"/>
+                <mesh filename="package://lcm_tools/meshes/RR_hip.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.79608 0.82353 0.93725 1"/>
@@ -342,7 +342,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/RR_hip.STL"/>
+                <mesh filename="package://lcm_tools/meshes/RR_hip.STL"/>
             </geometry>
         </collision>
     </link>
@@ -362,7 +362,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/RR_thigh.STL"/>
+                <mesh filename="package://lcm_tools/meshes/RR_thigh.STL"/>
             </geometry>
             <material name="">
                 <color rgba="1 1 1 1"/>
@@ -371,7 +371,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/RR_thigh.STL"/>
+                <mesh filename="package://lcm_tools/meshes/RR_thigh.STL"/>
             </geometry>
         </collision>
     </link>
@@ -391,7 +391,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/RR_calf.STL"/>
+                <mesh filename="package://lcm_tools/meshes/RR_calf.STL"/>
             </geometry>
             <material name="">
                 <color rgba="1 1 1 1"/>
@@ -400,7 +400,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/RR_calf.STL"/>
+                <mesh filename="package://lcm_tools/meshes/RR_calf.STL"/>
             </geometry>
         </collision>
     </link>
@@ -420,7 +420,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/RR_wheel.STL"/>
+                <mesh filename="package://lcm_tools/meshes/RR_wheel.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.79608 0.82353 0.93725 1"/>
@@ -429,7 +429,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/RR_wheel.STL"/>
+                <mesh filename="package://lcm_tools/meshes/RR_wheel.STL"/>
             </geometry>
         </collision>
     </link>
@@ -448,7 +448,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/RL_hip.STL"/>
+                <mesh filename="package://lcm_tools/meshes/RL_hip.STL"/>
             </geometry>
             <material name="">
                 <color rgba="1 1 1 1"/>
@@ -457,7 +457,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/RL_hip.STL"/>
+                <mesh filename="package://lcm_tools/meshes/RL_hip.STL"/>
             </geometry>
         </collision>
     </link>
@@ -477,7 +477,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/RL_thigh.STL"/>
+                <mesh filename="package://lcm_tools/meshes/RL_thigh.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.79608 0.82353 0.93725 1"/>
@@ -486,7 +486,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/RL_thigh.STL"/>
+                <mesh filename="package://lcm_tools/meshes/RL_thigh.STL"/>
             </geometry>
         </collision>
     </link>
@@ -506,7 +506,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/RL_calf.STL"/>
+                <mesh filename="package://lcm_tools/meshes/RL_calf.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.79608 0.82353 0.93725 1"/>
@@ -515,7 +515,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/RL_calf.STL"/>
+                <mesh filename="package://lcm_tools/meshes/RL_calf.STL"/>
             </geometry>
         </collision>
     </link>
@@ -535,7 +535,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/RL_wheel.STL"/>
+                <mesh filename="package://lcm_tools/meshes/RL_wheel.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.79608 0.82353 0.93725 1"/>
@@ -544,7 +544,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/RL_wheel.STL"/>
+                <mesh filename="package://lcm_tools/meshes/RL_wheel.STL"/>
             </geometry>
         </collision>
     </link>

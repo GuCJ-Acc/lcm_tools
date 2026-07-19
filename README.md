@@ -15,3 +15,15 @@ rosrun lcm_tools lcmnjust
 
 ## More detail
 - mortors state lcm Type is `motor_state_second_dog`. User can use **lcm-spy** to view the current lcm channel status.
+
+
+## 中文使用说明
+1. 开启lcm的广播模式
+2. 开启lcm数据转换节点
+3. 使用rviz进行查看
+```
+source devel/setup.bash
+./star_multicast
+roslaunch lcm_tools robot_display.launch 
+rosrun lcm_tools lcmnjust
+```

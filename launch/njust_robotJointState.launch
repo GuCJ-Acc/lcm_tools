@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="lcm_tools" type="lcmnjust" name="lcmnjust" output="screen" />
+
+</launch>

@@ -46,14 +46,14 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://lcm_tools/meshes/base_link.STL" scale="1 1 1"/>
+                <mesh filename="package://lcm_tools/meshes/base_link_sensors.STL" scale="1 1 1"/>
             </geometry>
             <material name="orange"/>
         </visual>
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://lcm_tools/meshes/base_link.STL" scale="1 1 1"/>
+                <mesh filename="package://lcm_tools/meshes/base_link_sensors.STL" scale="1 1 1"/>
             </geometry>
             <material name="orange"/>
         </collision>
@@ -190,7 +190,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://lcm_tools/meshes/FR_wheel.STL"/>
+                <mesh filename="package://lcm_tools/meshes/FR_wheel_B.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.79608 0.82353 0.93725 1"/>
@@ -199,7 +199,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://lcm_tools/meshes/FR_wheel.STL"/>
+                <mesh filename="package://lcm_tools/meshes/FR_wheel_B.STL"/>
             </geometry>
         </collision>
     </link>
@@ -308,7 +308,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://lcm_tools/meshes/FL_wheel.STL"/>
+                <mesh filename="package://lcm_tools/meshes/FL_wheel_B.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.79608 0.82353 0.93725 1"/>
@@ -317,7 +317,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://lcm_tools/meshes/FL_wheel.STL"/>
+                <mesh filename="package://lcm_tools/meshes/FL_wheel_B.STL"/>
             </geometry>
         </collision>
     </link>
@@ -426,7 +426,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://lcm_tools/meshes/RR_wheel.STL"/>
+                <mesh filename="package://lcm_tools/meshes/RR_wheel_B.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.79608 0.82353 0.93725 1"/>
@@ -435,7 +435,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://lcm_tools/meshes/RR_wheel.STL"/>
+                <mesh filename="package://lcm_tools/meshes/RR_wheel_B.STL"/>
             </geometry>
         </collision>
     </link>
@@ -544,7 +544,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://lcm_tools/meshes/RL_wheel.STL"/>
+                <mesh filename="package://lcm_tools/meshes/RL_wheel_B.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.79608 0.82353 0.93725 1"/>
@@ -553,7 +553,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
-                <mesh filename="package://lcm_tools/meshes/RL_wheel.STL"/>
+                <mesh filename="package://lcm_tools/meshes/RL_wheel_B.STL"/>
             </geometry>
         </collision>
     </link>

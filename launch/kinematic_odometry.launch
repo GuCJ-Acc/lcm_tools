@@ -1,0 +1,8 @@
+<launch>
+  <arg name="urdf_file" default="$(find lcm_tools)/urdf/njust_v2_wheel.urdf"/>
+  <rosparam command="load" file="$(find lcm_tools)/config/LegConfig.yaml"/>
+  <node pkg="lcm_tools" type="wheel_leg_odometry" name="wheel_leg_odometry" output="screen">
+    <rosparam command="load" file="$(find lcm_tools)/config/kinematic_odometry.yaml"/>
+    <param name="urdf_file" value="$(arg urdf_file)"/>
+  </node>
+</launch>

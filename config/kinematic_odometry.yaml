@@ -1,0 +1,24 @@
+# Wheel_r 从 LegConfig.yaml 读取；实际关节偏移/轴向从 launch 指定的 URDF 读取。
+# L1/L2/L3 为简化尺寸，与 URDF 有差异，不混用；force_threshold 是力阈值，
+# JointState.effort 是电机力矩，不能直接用该阈值判断接地。
+leg_config_namespace: /njust_v2
+joint_topic: joint_states_full
+imu_topic: imu_data
+odom_topic: kinematic_odom
+odom_frame: odom_kinematic
+base_frame: trunk
+publish_tf: false
+# 默认使用机身坐标系的陀螺仪积分姿态；起始姿态为单位四元数。
+# 有可靠的 ENU orientation 时可改 true，初始 yaw 归零，保留 roll/pitch。
+# IMU 在机身中心，且轴向须与 trunk 一致；输入单位 rad、rad/s、米。
+use_imu_orientation: false
+imu_timeout: 0.05
+max_dt: 0.1
+# FR FL RR RL，符号相对于 URDF 轮轴；URDF 左侧轮轴为 -Y。
+# 接收器对轮速度没有做符号转换，必须通过实车前进实验确认。
+wheel_velocity_signs: [1.0, 1.0, 1.0, 1.0]
+min_contact_wheels: 2
+velocity_residual_threshold: 0.5  # m/s，剔除与各轮候选速度中位数偏差过大的轮
+# 固定对角协方差为经验值，并非滤波器估计值，需按实测调整。
+pose_variance: 0.05
+twist_variance: 0.02

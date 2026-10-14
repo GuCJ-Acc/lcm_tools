@@ -4,6 +4,7 @@ project(lcm_tools)
 
 find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
+  nav_msgs
   roscpp
   rospy
   sensor_msgs
@@ -12,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 find_package(lcm REQUIRED)
+find_package(Eigen3 REQUIRED)
 
 catkin_package(
 #  INCLUDE_DIRS include
@@ -23,6 +25,7 @@ catkin_package(
 include_directories(
   include
   ${catkin_INCLUDE_DIRS}
+  ${EIGEN3_INCLUDE_DIRS}
 )
 
 
@@ -38,3 +41,14 @@ target_link_libraries(lcmreceiver ${catkin_LIBRARIES} ${LCM_NAMESPACE}lcm)
 
 add_executable(lcmnjust src/lcm_njust_receiver.cpp)
 target_link_libraries(lcmnjust ${catkin_LIBRARIES} ${LCM_NAMESPACE}lcm)
+
+add_executable(lcmnjustfull src/lcm_njust_receiverFull.cpp)
+target_link_libraries(lcmnjustfull ${catkin_LIBRARIES} ${LCM_NAMESPACE}lcm)
+
+add_executable(wheel_leg_odometry kinematic/wheel_leg_odometry.cpp)
+set_property(TARGET wheel_leg_odometry PROPERTY CXX_STANDARD 11)
+target_link_libraries(wheel_leg_odometry ${catkin_LIBRARIES} tinyxml)
+install(TARGETS wheel_leg_odometry RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+catkin_install_python(PROGRAMS kinematic/test/print_wheel_states.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+install(DIRECTORY config launch urdf DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})

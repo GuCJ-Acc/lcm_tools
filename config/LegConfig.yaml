@@ -1,0 +1,16 @@
+# 二代轮足狗相关参数表
+njust_v2:
+  L1: 0.162
+  L2: 0.26
+  L3: 0.288
+  Wheel_r: 0.15
+
+  ox: 0.29
+  oy: 0.125
+  oz: 0
+
+  body2imu_x: 0
+  body2imu_y: 0
+  body2imu_z: 0
+
+  force_threshold: 52

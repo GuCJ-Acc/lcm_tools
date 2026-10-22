@@ -2,8 +2,8 @@
 # L1/L2/L3 为简化尺寸，与 URDF 有差异，不混用；force_threshold 是力阈值，
 # JointState.effort 是电机力矩，不能直接用该阈值判断接地。
 leg_config_namespace: /njust_v2
-joint_topic: joint_states_full
-imu_topic: imu_data
+joint_topic: /joint_states_full
+imu_topic: /xsens/imu/data
 odom_topic: kinematic_odom
 odom_frame: odom_kinematic
 base_frame: trunk
